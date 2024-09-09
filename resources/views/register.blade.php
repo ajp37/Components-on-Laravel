@@ -8,25 +8,22 @@
     <form action="">
         <div>
             <x-label>Nombre</x-label>
-            <input type="text" name="name" class="rounded shadow border border-gray-300 p-2 mt-1 w-full outline-none">
+            <x-input type="text" name="name" />
         </div>
 
         <div class="mt-4">
             <x-label>Email</x-label>
-            <input type="text" name="email" class="rounded shadow border border-gray-300 p-2 mt-1 w-full outline-none">
+            <x-input type="text" name="email" />
         </div>
 
         <div class="mt-4">
             <x-label>Contraseña</x-label>
-            <input type="password" name="password"
-                class="rounded shadow border border-gray-300 p-2 mt-1 w-full outline-none">
+            <x-input type="password" name="password" />
         </div>
 
         <div class="flex items-center gap-4 justify-end mt-8">
-            <a href="/login" class="underline text-sm text-gray-600 hover:text-gray-900">Estoy registrado</a>
-
-            <button type="submit"
-                class="px-4 py-2 bg-blue-800 rounded text-xs text-white uppercase hover:bg-blue-700">Registrarse</button>
+            <x-link href="/login">Estoy registrado</x-link>
+            <x-button>Registrarse</x-button>
         </div>
     </form>
 </x-wrapper>
