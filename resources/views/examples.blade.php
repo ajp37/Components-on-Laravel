@@ -46,6 +46,32 @@
             title="Lorem ipsum dolor sit amet"
             content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus ut libero ultrices ultricies. Nullam nec purus ut libero ultrices ultricies."
         ></x-card>
+        <x-card
+            img="https://images.unsplash.com/photo-1730344968874-260056df2de6?"
+            date="Noviembre, 2024"
+            title="Lorem ipsum dolor sit amet"
+            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus ut libero ultrices ultricies. Nullam nec purus ut libero ultrices ultricies."
+        ></x-card>
+        <x-card
+            img="https://images.unsplash.com/photo-1730344968874-260056df2de6?"
+            date="Noviembre, 2024"
+            title="Lorem ipsum dolor sit amet"
+            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus ut libero ultrices ultricies. Nullam nec purus ut libero ultrices ultricies."
+        ></x-card>
+    </div>
+
+
+    <hr class="my-4">
+
+    <x-youtube url="https://www.youtube.com/embed/lhk2VLnl2CA?si=Kfilgr99MO-20PH-"></x-youtube>
+
+    <hr class="my-4">
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+        <x-youtube url="https://www.youtube.com/embed/YZ84iQrbYjw?si=lgTOOieM-cGmmov6"></x-youtube>
+        <x-youtube url="https://www.youtube.com/embed/E9CkoQUjiFc?si=7SKxvwNM22q8c07p"></x-youtube>
+        <x-youtube url="https://www.youtube.com/embed/YZ84iQrbYjw?si=lgTOOieM-cGmmov6"></x-youtube>
+        <x-youtube url="https://www.youtube.com/embed/E9CkoQUjiFc?si=7SKxvwNM22q8c07p"></x-youtube>
     </div>
 </div>
 @endsection
